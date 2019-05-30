@@ -1,0 +1,13 @@
+$color-primary-0: #D00000;	// Main Primary color */
+$color-primary-1: #FF4F4F;
+$color-primary-2: #F91B1B;
+$color-primary-3: #AA0000;
+$color-primary-4: #800000;
+
+
+@mixin xy-cellPadding($size) {
+    @include xy-cell($size, true, $grid-column-gutter, 'padding');
+}
+@mixin xy-cellMargin($size) {
+    @include xy-cell($size, true, $grid-column-gutter, 'margin');
+}

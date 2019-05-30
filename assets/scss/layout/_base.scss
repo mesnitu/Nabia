@@ -1,0 +1,17 @@
+.itemTitle {
+    font-size: 1rem;
+}
+
+.icon {
+    background: white;
+}
+.icon-dim {
+    width: 24px; height: 24px;
+}
+.account_circle-blue-24 { 
+    @extend .icon-dim;
+}
+.account_circle-blue-48 { @extend .icon-dim; }
+.shopping_basket-blue-24 { @extend .icon-dim; }
+.shopping_basket-blue-48 { @extend .icon-dim; }
+.favorite-blue-24 { @extend .icon-dim; }

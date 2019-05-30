@@ -1,0 +1,15 @@
+
+.pagination {
+    @include callout-base;
+    @include pagination-container;
+
+    .current {
+        @include pagination-item-current;
+    }
+    .ellipsis {
+        @include pagination-ellipsis;
+    }
+    .disabled {
+        @include pagination-item-disabled;
+    }
+}

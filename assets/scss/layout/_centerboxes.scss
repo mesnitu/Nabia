@@ -1,0 +1,19 @@
+.inner {
+    @include xy-grid;
+    @include xy-grid-layout(2, '.card');
+    @include breakpoint(medium down) {
+        @include xy-grid-layout(4, '.card');
+      }
+      @include breakpoint(xlarge) {
+        @include xy-grid-layout(6, '.card');
+      }
+}
+
+.tabTable {
+    @include xy-grid;
+    @include xy-grid-layout(3, '.card');
+    .productListing-rowheading {
+        display: block;
+        width: 100%;
+    }
+}

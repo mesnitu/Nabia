@@ -1,0 +1,47 @@
+{
+    "templateName": "Nabia",
+    "templateDescripiton": "Nabia (or Navia) was a goddess worshiped by the Gallaecians, Astures, Vettones and the Lusitanians.",
+    "version": "2.0",
+    "author": "mesnitu",
+    "siteFolder": "thesite.local",
+    "assetsFolder": "./assets/",
+    "deployFolder": "./streamlets/",
+    "src": {
+        "scss": "scss/**/*.scss",
+        "js": "js/*.js",
+        "img": "img/**/*",
+        "sprites": "sprites/*.png",
+        "svgs": "svgs/",
+        "layouts": "layouts"
+    },
+    "dest": {
+        "css": "../css",
+        "js": "../jscript",
+        "img": "../images",
+        "svgs": "../images/svgs"
+    },
+    "entries": [
+        "js/app.js"
+    ],
+    "includeSassPaths": [
+        "node_modules/foundation-sites/scss",
+        "node_modules/motion-ui/src"
+    ],
+    "imgConfig": {
+        "imgCompress": true,
+        "retina": "@2x",
+        "jpgProgressive": true
+    },
+    "browsers": [
+        "last 2 versions",
+        "ie >= 9",
+        "android >= 4.4",
+        "ios >= 7"
+    ],
+    "serverConfig": {
+        "proxy": "thesite.local",
+        "port": 5500
+    },
+    "htmlUncss": [],
+    "tplLayouts": []
+}

@@ -1,0 +1,23 @@
+#mainWrapper {
+    @include xy-grid-container;
+}
+
+#contentMainWrapper {
+    
+    @include xy-grid;
+
+    .col-center {
+        @include  xy-cellMargin('auto'); 
+        //@include xy-cell('auto', 'false', $grid-column-gutter, 'margin');
+        //@include xy-gutters('10', 'padding', $gutter-position, $negative);
+    }
+    .col-left {
+        background: #cccccc;
+        @include xy-cellPadding(2);
+    }
+    .col-right {
+        background: #cccccc;
+        @include xy-cell(1);
+    }
+}
+

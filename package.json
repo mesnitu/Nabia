@@ -1,0 +1,63 @@
+{
+  "name": "nabia",
+  "version": "1.0.0",
+  "description": "Basic template for a new zencart project with foundation.",
+  "main": "gulpfile.babel.js",
+  "scripts": {
+    "start": "gulp",
+    "build": "gulp build --production"
+  },
+  "author": "mesnitu",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/polyfill": "^7.4.3",
+    "foundation-sites": "^6.5.3",
+    "jquery": ">=3.0.0",
+    "motion-ui": "~2.0.0",
+    "what-input": "^5.2.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "@babel/register": "^7.4.0",
+    "autoprefixer": "^9.5.0",
+    "babel-loader": "^8.0.4",
+    "browser-sync": "^2.26.3",
+    "chalk": "^2.4.2",
+    "fs-extra": "^7.0.1",
+    "gulp": "^4.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^4.0.0",
+    "gulp-cli": "^2.1.0",
+    "gulp-concat": "^2.5.2",
+    "gulp-extname": "^0.2.0",
+    "gulp-if": "^2.0.0",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-load-plugins": "^1.1.0",
+    "gulp-material-icons": "^1.0.4",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sass-glob": "^1.0.9",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-svg-sprite": "^1.5.0",
+    "gulp-uglify": "^3.0.1",
+    "gulp.spritesmith": "^6.9.0",
+    "merge2": "^1.2.3",
+    "node-sass-glob-importer": "^5.3.1",
+    "postcss-uncss": "^0.16.1",
+    "readdirp": "^2.2.1",
+    "uncss": "^0.16.2",
+    "vinyl-buffer": "^1.0.1",
+    "vinyl-named": "^1.1.0",
+    "webpack": "^4.29.6",
+    "webpack-stream": "^5.2.1",
+    "yargs": "^13.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zurb/foundation-sites-template.git"
+  },
+  "private": true
+}
